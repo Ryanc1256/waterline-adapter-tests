@@ -21,16 +21,6 @@
     "sails-postgresql": "balderdashy/sails-postgresql",
     "sails-redis": "Ryanc1256/sails-redis"
   },
-  "keywords": [
-    "orm",
-    "tests",
-    "waterline",
-    "adapters",
-    "sails",
-    "mysql",
-    "postgresql",
-    "mongo"
-  ],
   "repository": "git://github.com/balderdashy/waterline-adapter-tests.git",
   "homepage": "http://github.com/balderdashy/waterline-adapter-tests",
   "main": "./lib/index.js",
@@ -38,17 +28,5 @@
     "test": "node test/integration/runnerDispatcher.js",
     "test-load": "node test/load",
     "docker": "docker-compose run adapter bash"
-  },
-  "engines": {
-    "node": "*"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/balderdashy/waterline-adapter-tests/blob/master/LICENSE.md"
-    }
-  ],
-  "bugs": {
-    "url": "https://github.com/balderdashy/waterline-adapter-tests/issues/new"
   }
 }
