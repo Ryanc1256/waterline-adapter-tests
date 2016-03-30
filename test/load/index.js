@@ -1,7 +1,7 @@
 var exec = require('child_process').exec,
     async = require('async');
 
-var adapters = ['sails-memory', 'sails-redis'];
+var adapters = ['sails-redis'];
 if (process.argv.length > 2) {
   adapters = process.argv.splice(2);
 }
